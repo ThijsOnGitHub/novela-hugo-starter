@@ -16,5 +16,10 @@ fields:
   config:
     min: 
     max: 
+- name: the_writer
+  type: include
+  config: {}
+  template: author
+  label: The writer
 pages:
 - content/test/Supertest.md
