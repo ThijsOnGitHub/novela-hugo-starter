@@ -7,7 +7,6 @@ blocks:
   avatar: ''
   social: []
   featured: false
-draft: true
 
 ---
 Hi! 
