@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Test
 - type: document
-  path: testFiles/**/*
+  path: content/testFiles/**/*
   label: Test documents
 - type: document
   path: content/_index.md
