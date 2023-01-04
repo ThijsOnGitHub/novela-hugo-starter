@@ -7,3 +7,5 @@ fields:
   config:
     required: false
   label: Naam
+pages:
+- content/test/Supertest.md
