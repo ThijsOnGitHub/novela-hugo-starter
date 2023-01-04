@@ -1,11 +1,20 @@
 ---
 label: Test Document
-hide_body: false
+hide_body: true
+display_field: name
 fields:
 - name: name
   type: text
   config:
     required: false
   label: Naam
+- name: blocks
+  type: blocks
+  label: blocks
+  template_types:
+  - author
+  config:
+    min: 
+    max: 
 pages:
 - content/test/Supertest.md
