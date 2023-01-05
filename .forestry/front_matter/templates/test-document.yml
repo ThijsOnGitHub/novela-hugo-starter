@@ -16,12 +16,7 @@ fields:
   config:
     min: 
     max: 
-- name: the_writer
-  type: include
-  config: {}
-  template: author
-  label: The writer
-- name: document
+- name: writer
   type: select
   default: []
   config:
@@ -32,6 +27,6 @@ fields:
       section: test
       file: 
       path: 
-  label: document
+  label: Schrijver
 pages:
 - content/test/Supertest.md
