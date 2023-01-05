@@ -21,5 +21,17 @@ fields:
   config: {}
   template: author
   label: The writer
+- name: document
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: test
+      file: 
+      path: 
+  label: document
 pages:
 - content/test/Supertest.md
