@@ -16,17 +16,15 @@ fields:
   config:
     min: 
     max: 
-- name: writer
-  type: select
-  default: []
+- name: schrijvers
+  type: list
   config:
-    required: false
-    options: []
+    use_select: true
+    min: 
+    max: 
     source:
       type: pages
       section: test
-      file: 
-      path: 
-  label: Schrijver
+  label: schrijvers
 pages:
 - content/test/Bert.md
